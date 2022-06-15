@@ -7,45 +7,29 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
   font-family: "poppies", sans-serif;
   margin: 0;
   min-height: 100vh;
+  text-align: center;
+  padding: 5rem;
+}
+#toggle {
+  position: relative;
+  height: 40px;
+  width: 40px;
+  background-color: rgb(62, 196, 10);
+  margin: 20px;
+  border: 2px solid blue;
+}
+label {
+  color: rgb(16, 180, 10);
+  font-size: 30px;
 }
 
-button {
-  background-color: blueviolet;
-  color: antiquewhite;
-  border: 2px solid antiquewhite;
-  position: fixed;
-  right: 30px;
-  top: 30px;
-  padding: 1em;
-  transition: 0.3s ease-in-out;
-}
-button.active {
-  transform: translateX(-100px);
-}
-nav {
-  background-color: blueviolet;
-  position: fixed;
-  top: 0px;
-  right: 0;
-  height: 100vh;
-  padding: 2rem;
-  transform: translateX(100%);
-}
-nav.active {
-  transform: translateX(0);
-}
-nav ul {
-  padding: 0;
-  list-style-type: none;
-  margin: 0rem;
-}
-nav ul li {
-  padding: 2rem 0;
-}
-nav a {
-  color: antiquewhite;
-  text-decoration: none;
+body.dark {
+  background-color: brown;
+  border: 20px solid burlywood;
+  border-radius: 50%;
+  transition: 0.5s;
 }

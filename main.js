@@ -1,7 +1,5 @@
-const nav = document.getElementById("nav");
-const btn = document.getElementById("btn");
-btn.addEventListener("click", () => {
-  nav.classList.toggle("active");
-  btn.classList.toggle("active");
-  btn.style.borderRadius = "50%";
+const toggle = document.getElementById("toggle");
+
+toggle.addEventListener("change", (e) => {
+  document.body.classList.toggle("dark", e.target.checked);
 });
