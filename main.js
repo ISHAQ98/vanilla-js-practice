@@ -39,3 +39,17 @@ const calc = () => {
   document.querySelector("#result").innerHTML = calculate;
 };
 */
+
+// 28 -6 - 2022
+
+// practive debugging && arrays with function 
+const date1 = [17,23,25]
+
+const printForcast = function(arr){
+  let str = '';
+  for(let i = 0; i < arr.length; i++){
+    str = str + `${arr[i]}°C in ${i + 1} days`
+  }
+  console.log(str);
+}
+printForcast(date1)
