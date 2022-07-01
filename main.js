@@ -2,6 +2,7 @@ const toggle = document.getElementById("toggle");
 
 toggle.addEventListener("change", (e) => {
   document.body.classList.toggle("dark", e.target.checked);
+  // document.div.classList.toggle('black')
 });
 // Calculator try build
 /*
