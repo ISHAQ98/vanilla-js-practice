@@ -29,12 +29,7 @@
 
 5. Purple Heart Rain
 
-- heart css
-- falling animation
-- create heart
-- add class
-- add it to body
-- interval
+-XX
 
 6. Background Changer
 
