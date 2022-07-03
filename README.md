@@ -5,14 +5,14 @@
 - toggle on click
 - animation
 
-2. Toast Notification
+2. Toast Notification // X
 
 - toast container floating
 - toast design
 - button
 - click show random toast message
 
-3. Auto Write Text
+3. Auto Write Text // X
 
 - text
 - index
