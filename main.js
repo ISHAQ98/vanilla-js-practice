@@ -20,6 +20,8 @@ const calc = () => {
     calculate = a / b;
   } else if (ope == "mul") {
     calculate = a * b;
+  }else{
+  calculate = 0
   }
    switch (ope) {
     case "add":
